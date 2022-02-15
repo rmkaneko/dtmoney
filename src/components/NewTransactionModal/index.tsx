@@ -27,7 +27,7 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
          type,
       };
 
-      api 
+      api.post('/transaction', data);
    }
 
     return(
